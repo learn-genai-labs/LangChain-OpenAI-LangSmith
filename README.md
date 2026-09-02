@@ -15,7 +15,13 @@ Prompt → LangChain → OpenAI Model → Output
 - OpenAI API Key gives the application permission to use the OpenAI model. 
 - LangSmith API Key allows the application to send traces to our LangSmith account. 
 - LangSmith lets us see the input, output and execution/timing information. 
-- .env keeps API keys outside the Python code. 
+- .env keeps API keys outside the Python code.
+
+### Prompt
+https://github.com/learn-genai-labs/LangChain-OpenAI-LangSmith/blob/5a63d2fac1648681d026c503e1f49ff401252e67/Assets/Prompt.png
+
+### LangSmith Tracing
+
 
 ### Other concepts learned today
 - foundation for RAG
