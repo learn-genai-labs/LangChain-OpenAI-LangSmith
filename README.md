@@ -21,7 +21,9 @@ Prompt → LangChain → OpenAI Model → Output
 ![Alt text](https://github.com/learn-genai-labs/LangChain-OpenAI-LangSmith/blob/5a63d2fac1648681d026c503e1f49ff401252e67/Assets/Prompt.png)
 
 ### LangSmith Tracing
-![Alt text](https://github.com/learn-genai-labs/LangChain-OpenAI-LangSmith/blob/5a63d2fac1648681d026c503e1f49ff401252e67/Assets/LangSmith.png)
+![Alt text](https://github.com/learn-genai-labs/LangChain-OpenAI-LangSmith/blob/40ed625206dea4155dc10a50738b09562a44754e/Assets/LangSmith.png)
+
+
 
 
 ### Other concepts learned today
