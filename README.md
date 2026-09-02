@@ -18,9 +18,10 @@ Prompt → LangChain → OpenAI Model → Output
 - .env keeps API keys outside the Python code.
 
 ### Prompt
-https://github.com/learn-genai-labs/LangChain-OpenAI-LangSmith/blob/5a63d2fac1648681d026c503e1f49ff401252e67/Assets/Prompt.png
+![Alt text](https://github.com/learn-genai-labs/LangChain-OpenAI-LangSmith/blob/5a63d2fac1648681d026c503e1f49ff401252e67/Assets/Prompt.png)
 
 ### LangSmith Tracing
+![Alt text](https://github.com/learn-genai-labs/LangChain-OpenAI-LangSmith/blob/5a63d2fac1648681d026c503e1f49ff401252e67/Assets/LangSmith.png)
 
 
 ### Other concepts learned today
