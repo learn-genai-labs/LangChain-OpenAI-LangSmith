@@ -52,5 +52,24 @@ RAG CONCEPTS — LEARNED, NOT USED YET
                                   ↓
                               AI → Answer
 
+### Understanding Gained from Today’s Questions
+- Why OpenAI API Key? → Gives our Python application permission to access and use the OpenAI model.
+- What if OpenAI API Key is removed? → The OpenAI model cannot be accessed, so the application cannot generate the answer, unless the key is available from another environment source.
+- Why LangSmith API Key? → Authenticates our application with our LangSmith account so traces can be sent there.
+- OpenAI Key vs LangSmith Key → They have different jobs: OpenAI Key = use the model; LangSmith Key = send traces to LangSmith. Today's notes configure both separately.
+- Why .env? → Keeps API keys outside main.py instead of hard-coding secrets into the program. Your notes specifically covered loading keys from .env.
+- Why LANGSMITH_TRACING=true? → Turns LangSmith tracing ON.
+- Why LANGSMITH_PROJECT? → Tells LangSmith which project should contain the application's traces.
+- Why LangChain when we can call OpenAI directly? → A simple prompt can go directly to a model. LangChain becomes useful for connecting multiple application steps such as Prompt → Model → Output and, later, RAG components
+
+### Easy Memory
+
+🔑 OpenAI Key = ACCESS AI
+🔑 LangSmith Key = ACCESS TRACING
+🔗 LangChain = CONNECT STEPS
+🤖 OpenAI = GENERATE ANSWER
+🔍 LangSmith = TRACE / MONITOR
+🔒 .env = KEEP KEYS OUT OF CODE
+
 ## Key distinction
 Today's assignment was mainly a LangChain fundamentals + LangSmith tracing exercise. The other concepts you learned today prepare you for the next stage: building a RAG application using your own data.
